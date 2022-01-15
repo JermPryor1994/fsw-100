@@ -1,0 +1,36 @@
+#main-header{
+    color:blue;
+}
+.headers {
+    font-family: Georgia;
+    color:green;
+}
+body{
+    background-color: lightcyan;
+}
+img{
+    float: left;
+    border: hidden;
+    margin: 10px;
+}
+h1, h2{
+    text-align: center;
+}
+p{
+    line-height: 20px;
+}
+b{
+    color: lightcoral
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.links{
+    text-transform: uppercase;
+}
+div > ol li{
+    list-style-type: disc;
+}
