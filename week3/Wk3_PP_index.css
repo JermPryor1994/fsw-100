@@ -1,0 +1,7 @@
+header{
+    color:blue;
+}
+table, th, td,tr{
+    border: solid black;
+    border-collapse: collapse;
+}
