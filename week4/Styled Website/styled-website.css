@@ -1,0 +1,127 @@
+* {
+    font-family: 'Dongle', sans-serif;
+}
+body {
+    background-color: forestgreen;
+    padding: 16px
+}
+#nav-bar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+#nav-bar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 97%;
+}
+.sticky + body {
+    padding-top: 60px;
+}
+.header{
+    background-color: rgb(120, 201, 40);
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+.self{
+    background-color: rgb(120, 201, 40);
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+.sidebyside{
+    display: flex
+}
+#side1{
+    background-color: rgb(120, 201, 40);
+    flex: 1;
+    border: 2px solid black;
+    margin-right: 20px;
+    margin-left: 5px;
+    padding: 5px;
+}
+#side2{
+    background-color: rgb(120, 201, 40);
+    flex: 1;
+    border: 2px solid black;
+    margin-right: 5px;
+    padding: 5px
+    
+}
+.hobbie-list{
+    background-color: rgb(120, 201, 40);
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.hobbie-list > h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.hobbies{
+    background-color: rgb(120, 201, 40);
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#videogameimg{
+    float: left;
+    max-width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+#carpentryimg{
+    float: left;
+    max-width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+#adventureimg{
+    float: left;
+    max-width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.my-pets{
+    background-color: rgb(120, 201, 40);
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+table{
+    margin-right: auto;
+    margin-left: auto;
+}
+table, th, td,tr{
+    border: solid black;
+    border-collapse: collapse;
+    background-color: rgb(134, 167, 101);
+    padding: 10px;
+}
+footer{
+    background-color: rgb(120, 201, 40);
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 100px;
+}
