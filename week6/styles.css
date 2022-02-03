@@ -1,0 +1,63 @@
+.boxs{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+.box1{
+    background-color: greenyellow;
+}
+.box1:hover{
+    background-color: steelblue;
+    width: 350px;
+    transition: background-color 1s ease-in, width 1.5s ease-out;
+}
+.box2{
+    background-color: indigo;
+}
+.box2:hover{
+    background-color: thistle;
+    height: 150px;
+    margin-left: 50px;
+    border-radius: 50px;
+    transition: border-radius 2s ease-in-out, height 1s 1s ease-in-out, margin-left 1s 2s;
+}
+.box3{
+    background-color: lemonchiffon;
+    border-radius: 40px;
+}
+.box3:hover{
+    border-radius: 0px;
+    background-color: yellowgreen;
+    opacity: 0%;
+    transition: background-color 1s, border-radius 1s, opacity 1s 1s;
+}
+.box4{
+    background-color: lightseagreen;
+}
+.box4:hover{
+    background-color: violet;
+    height: 60px;
+    width: 300px;
+    transition: height 1s, width 1s 1s, background-color 1s 2s;
+}
+.box5{
+    background-color: maroon;
+}
+.box5:hover{
+    background-color: midnightblue;
+    border: 5px dotted yellow;
+    margin: 50px;
+    transition: background-color 2s ease-in-out, border 1s ease-in, margin 1s ease-out;
+}
+.box6{
+    background-color: slategray;
+}
+.box6:hover{
+    background-color: orange;
+    border: 4px groove blue;
+    height: 400px;
+    width: 400px;
+    transition: 1s ease-in-out;
+}
