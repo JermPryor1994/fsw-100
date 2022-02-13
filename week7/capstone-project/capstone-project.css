@@ -225,6 +225,34 @@ footer{
     text-align: center;
     font-size: 30px;
 }
+#citedcontact{
+    grid-column: 1/6;
+    grid-row: 8/9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 158, 158, .7);
+    border: 2px solid rgb(224, 107, 107);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+#citedprices{
+    grid-column: 1/6;
+    grid-row: 9/10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 158, 158, .7);
+    border: 2px solid rgb(224, 107, 107);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
 
 @media (max-width: 800px){
     body{
